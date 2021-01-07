@@ -1,0 +1,14 @@
+@import "./cart-dropdown/index.scss";
+@import "./cart-icon/index.scss";
+@import "./cart-item/index.scss";
+@import "./CollectionItem/index.scss";
+@import "./Header/index.scss";
+
+
+.products {
+  margin: 0 15px 25px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 320px !important;
+  }
+}

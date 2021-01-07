@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import { Switch, Route } from 'react-router-dom';
+import { connect } from "react-redux";
 
-function App() {
+import Header from "./components/Header/index";
+import Listing from "./components/Listing/index";
+
+import { setProductsData } from "./redux/shop/shop.actions";
+
+
+function App(props) {
+  // To mimic the componentDidMount lifecycle method
+  useEffect(() => {
+    fetch('https://run.mocky.io/v3/aea5d98a-654d-4423-bd99-6fbb90843730')
+      .then(response => {
+        return response.json()
+      })
+      .then(products => {
+        const result = products && products.data && products.data.length && products.data;
+        props.setProductsData(result);
+      })
+  },[]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Switch>
+        <Route exact path = "/" component={Listing} />
+      </Switch>
     </div>
   );
 }
 
-export default App;
+const mapDispatchToProps = dispatch => ({
+  setProductsData: products => dispatch(setProductsData(products))
+});
+
+export default connect(null, mapDispatchToProps)(App);
