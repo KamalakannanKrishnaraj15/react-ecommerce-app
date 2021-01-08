@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import { GridContainer, GridRow, GridColumn } from "arv-reactcomponents";
 
-import CollectionItem from "../CollectionItem/index";
+import CollectionItem from "../collection-item/index";
 
 const Listing = (props) => {
   const { products } = props;
