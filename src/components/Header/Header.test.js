@@ -6,7 +6,7 @@ import { shallowToJson } from "enzyme-to-json";
 import Header from './index';
 
 /* Case1: CartDropDown component is not rendered */
-describe("App Component test", () => {
+describe("Header Component test", () => {
   const props = {
     hidden: true
   };
@@ -19,7 +19,7 @@ describe("App Component test", () => {
 });
 
 /* Case2: CartDropDown component is rendered */
-describe("App Component test", () => {
+describe("Header Component test", () => {
   const props = {
     hidden: false
   };

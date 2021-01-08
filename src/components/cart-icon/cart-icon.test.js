@@ -5,7 +5,7 @@ import { shallowToJson } from "enzyme-to-json";
 
 import CartIcon from './index';
 
-describe("App Component test", () => {
+describe("CartIcon Component test", () => {
   const props = {
     toggleCartHidden: jest.fn(() => true),
     itemCount: 1,

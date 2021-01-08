@@ -5,7 +5,7 @@ import { shallowToJson } from "enzyme-to-json";
 
 import CartItem from './index';
 
-describe("App Component test", () => {
+describe("CartItem Component test", () => {
   const props = {
     item: {
       image: "http://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",

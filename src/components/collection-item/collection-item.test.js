@@ -7,7 +7,7 @@ import CollectionItem from './index';
 
 
 /* Case 1: Add to cart button enabled since cart item quantity is less than max quantity */
-describe("App Component test", () => {
+describe("CollectionItem Component test", () => {
   const props = {
     item: {
       image: "http://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",
@@ -37,7 +37,7 @@ describe("App Component test", () => {
 /* Case 2: Add to cart button disabled since cart item quantity reached the max quantity */
 
 
-describe("App Component test", () => {
+describe("CollectionItem Component test", () => {
   const props = {
     item: {
       image: "http://truth-events.com/wp-content/uploads/2019/09/dummy.jpg",

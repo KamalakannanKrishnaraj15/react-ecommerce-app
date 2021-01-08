@@ -5,7 +5,7 @@ import { shallowToJson } from "enzyme-to-json";
 
 import Listing from './index';
 
-describe("App Component test", () => {
+describe("Listing Component test", () => {
   const props = {
     products: [
       {
