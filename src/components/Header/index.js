@@ -11,7 +11,7 @@ import { ReactComponent as Logo } from "../../assets/crown.svg";
 
 const Header = ({ hidden }) => (
   <div className='header'>
-    <Link className='logo-container' to='/'>
+    <Link className='logo-container' to={window.location.pathname}>
       <Logo className='logo' />
     </Link>
     <div className='options'>

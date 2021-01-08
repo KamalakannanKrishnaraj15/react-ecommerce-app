@@ -13,7 +13,7 @@ const Listing = (props) => {
       <GridRow>
         {
           products.map(item => (
-            <GridColumn className="nwc-grid-col-xs nwc-grid-col-sm nwc-grid-col-md-3 products">
+            <GridColumn key={item.id} className="nwc-grid-col-xs nwc-grid-col-sm nwc-grid-col-md-3 products">
               <CollectionItem key={item.id} item={item} />
             </GridColumn>
           ))

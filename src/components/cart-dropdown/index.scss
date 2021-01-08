@@ -3,7 +3,7 @@
 .cart-dropdown {
   position: absolute;
   width: 240px;
-  height: 340px;
+  min-height: 140px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -19,7 +19,6 @@
   }
 
   .cart-items {
-    height: 240px;
     display: flex;
     flex-direction: column;
     overflow: scroll;
@@ -27,5 +26,13 @@
 
   button {
     margin-top: auto;
+  }
+
+  .total-items {
+    background: $black-color;
+    padding: 15px;
+    text-align: center;
+    color: $white-color;
+    font-weight: 700;
   }
 }

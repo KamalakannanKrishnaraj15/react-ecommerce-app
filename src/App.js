@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Switch, Route } from 'react-router-dom';
 import { connect } from "react-redux";
 
 import Header from "./components/Header/index";
@@ -24,9 +23,7 @@ function App(props) {
   return (
     <div className="App">
       <Header />
-      <Switch>
-        <Route exact path = "/" component={Listing} />
-      </Switch>
+      <Listing />
     </div>
   );
 }
