@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-ecommerce-app.github.io/static/css/main.14c90a13.chunk.css",
-    "main.js": "/react-ecommerce-app.github.io/static/js/main.ff5afaf9.chunk.js",
-    "main.js.map": "/react-ecommerce-app.github.io/static/js/main.ff5afaf9.chunk.js.map",
+    "main.css": "/react-ecommerce-app.github.io/static/css/main.41031005.chunk.css",
+    "main.js": "/react-ecommerce-app.github.io/static/js/main.22fd8352.chunk.js",
+    "main.js.map": "/react-ecommerce-app.github.io/static/js/main.22fd8352.chunk.js.map",
     "runtime-main.js": "/react-ecommerce-app.github.io/static/js/runtime-main.d75a20a3.js",
     "runtime-main.js.map": "/react-ecommerce-app.github.io/static/js/runtime-main.d75a20a3.js.map",
     "static/js/2.c9bfcbc1.chunk.js": "/react-ecommerce-app.github.io/static/js/2.c9bfcbc1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2204fcd6.chunk.js": "/react-ecommerce-app.github.io/static/js/3.2204fcd6.chunk.js",
     "static/js/3.2204fcd6.chunk.js.map": "/react-ecommerce-app.github.io/static/js/3.2204fcd6.chunk.js.map",
     "index.html": "/react-ecommerce-app.github.io/index.html",
-    "static/css/main.14c90a13.chunk.css.map": "/react-ecommerce-app.github.io/static/css/main.14c90a13.chunk.css.map",
+    "static/css/main.41031005.chunk.css.map": "/react-ecommerce-app.github.io/static/css/main.41031005.chunk.css.map",
     "static/js/2.c9bfcbc1.chunk.js.LICENSE.txt": "/react-ecommerce-app.github.io/static/js/2.c9bfcbc1.chunk.js.LICENSE.txt",
     "static/media/crown.3a4e2b15.svg": "/react-ecommerce-app.github.io/static/media/crown.3a4e2b15.svg",
     "static/media/shopping-bag.a688874f.svg": "/react-ecommerce-app.github.io/static/media/shopping-bag.a688874f.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.d75a20a3.js",
     "static/js/2.c9bfcbc1.chunk.js",
-    "static/css/main.14c90a13.chunk.css",
-    "static/js/main.ff5afaf9.chunk.js"
+    "static/css/main.41031005.chunk.css",
+    "static/js/main.22fd8352.chunk.js"
   ]
 }
